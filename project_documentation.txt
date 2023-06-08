@@ -1,0 +1,24 @@
+my_first project is my first exercise in programming.
+I've followed a couple of courses ( this one is an eample 'https://www.youtube.com/watch?v=yBDHkveJUf4') I'll use some tutorials
+as reference to power my programming skills.
+
+My first idea is to base this first project on Python language, but i could also look ad Java (as of today i have no experience on Java)
+and a very limited knowledge on Python. I'm a beginner at programming.
+
+
+>>>  THE PROJECT  <<<
+The idea is to develop a platform/app for clubs to imrpove the process of management tickets' reservation, tables' reservation,
+PR's list of attendees, schedule and post events, create/grow/manage a community.
+
+
+>>>  TECH <<<
+The main platform I'll use are:
+- Python 3.9.12 (conda interpreter).
+- GitHiub: my-project is a public repository.
+- PlanetScale: cloud mySQL DB. To evaluate the subscription and pricing available.
+- MySQL Workbench: mySQL editor to manage DB.
+
+Others tech topics will be evaluated ongoing.
+
+>>>  DISCLUSURE <<<
+The project could be too omplex as first project. I could change purpose and complexity of the project ongoing.
