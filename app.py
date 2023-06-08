@@ -23,7 +23,7 @@ def render_page ():
     )
 
 @app.route ("/api/jobs")
-def list_job ():
+def list_jobs ():
     return jsonify (jobs_list)
 
 if __name__ == "__main__":
