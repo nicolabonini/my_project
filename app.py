@@ -1,16 +1,16 @@
 #this is the app.py file that contain the backend logic for my first project
 
-from flask import Flask, render_template, text
+from flask import Flask, render_template
 from flask.json import jsonify
 
 app = Flask (__name__)
 
 jobs_list = [
     {
-        'id' = 1,
-        'title' = 'Data Analyst',
-        'location' = 'Milan',
-        'salary' = '70.000 €'
+        'id' : 1,
+        'title' : 'Data Analyst',
+        'location' : 'Milan',
+        'salary' : '70.000 €'
     }
 ]
 
