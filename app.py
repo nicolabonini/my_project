@@ -14,7 +14,7 @@ jobs_list = [
     }
 ]
 
-@app.route ("/")
+@app.route ("/template/")
 def render_page ():
     return render_template (
         'home.html',
