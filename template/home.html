@@ -5,17 +5,54 @@
         <title>
             my_project
         </title>
+
+        <!-- gli style vanno inseriti nell'<head></head> del file. -->
+        <style>
+            #banner {
+                object-fit: cover;
+                width: 100%;
+                height: 320px;
+            }
+            #banner2 {
+                object-fit: contain;
+                height: 200px;
+            }
+            .shadowbox {
+                width: 15em;
+                border: 1px solid #333;
+                box-shadow: 8px 8px 5px #444;
+                padding: 8px 12px;
+                background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+            }
+            .warning {
+                border: 10px ridge #f00;
+                background-color: #ff0;
+                padding: 0.5rem;
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        {% include 'ban.html' %}
-          <div style = "height:56px"></div>
-        <h1>
-            my_projects
+        <h1 style="color:brown; text-align:center; background-color:rgb(188, 196, 196); font-size: 100px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            Nicola's Fisrt Project
         </h1>
-        <h2>
-            My first project! Enjoy it!
-        </h2>
+
+        <img id="banner" class="img-fluid" src="/static/banner.jpg">
+        
+        <div class="shadowbox" style="margin: 1em;">
+            <h2 style="text-align:center">
+                My first project! Enjoy it!
+            </h2>
+        </div>
+
+        <div class="warning">
+                <img id="banner2" class="img-fluid" src="/static/leopard.jpeg"
+                     alt="An intimidating leopard.">
+                <p style="font-size: xx-large; text-align:right">Beware of the leopard</p>
+        </div>
+
     </body>
 </html>
