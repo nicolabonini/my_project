@@ -31,6 +31,17 @@
                 display: flex;
                 flex-direction: column;
             }
+            .shadowbox {
+                margin: 1em;
+                box-shadow: -60px 16px yellow;
+                margin-left:auto;
+            }
+            #shadowbox2 {
+                margin: 1em;
+                box-shadow: 60px -16px teal;
+                margin-left:auto;
+                margin-right:auto;
+            }
         </style>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +53,13 @@
 
         <img id="banner" class="img-fluid" src="/static/banner.jpg">
         
-        <div class="shadowbox" style="margin: 1em;">
+        <div class="shadowbox">
+            <h2 style="text-align:center">
+                My first project! Enjoy it!
+            </h2>
+        </div>
+
+        <div id="shadowbox2" class="shadowbox">
             <h2 style="text-align:center">
                 My first project! Enjoy it!
             </h2>
